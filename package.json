@@ -1,6 +1,6 @@
 {
   "name": "is-pure-function",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "Return true, if function is pure.",
   "main": "src/is-pure-function.js",
   "scripts": {
@@ -10,7 +10,9 @@
   "keywords": [
     "check",
     "pure",
+    "purity",
     "function",
+    "FRP",
     "reactive",
     "model"
   ],

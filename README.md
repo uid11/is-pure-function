@@ -3,7 +3,6 @@
   [![NPM version][npm-image]][npm-url] ![dependencies][dependencies-image] [![License MIT][license-image]](LICENSE)
 
   Simple and fast ES3-check that function is pure.
-
 ```js
 /** 
  * @param {function} fn
@@ -13,7 +12,6 @@
  */
 function isPureFunction(fn, thisArg, args) {};
 ```
-
 *fn* is pure, if not throw when called with *thisArg* as this and *args* as arguments in global scope.
 
 Pure function cannot use closures, but can use exists global vars (Array, Object, setTimeout, etc.).
@@ -24,7 +22,7 @@ Result of Function.prototype.bind() could not be pure (because we can not substi
 
 It is supposed to use in reactive libraries.
 
-## Examples
+## Examples ##
 ```js
 var isPureFunction = require('is-pure-function');
 
@@ -117,10 +115,9 @@ isPureFunction(boundFn, 0, []);
 // it is unlikely you will need
 isPureFunction.clearCache();
 ```
-
 Use pure functions for FRP (the best way is arrow functions, without this and arguments object, with a fixed number of arguments).
 
-## Tests
+## Tests ##
 Standalone pages test/es3.html && test/es6.html (via Mocha). Install webpack and opener, build scripts, than run tests:
 ```bash
 $ npm install

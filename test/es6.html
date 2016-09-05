@@ -1,0 +1,18 @@
+<!DOCTYPE html><meta charset="utf-8"><title>Mocha tests</title>
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.0.2/mocha.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.0.2/mocha.min.js"></script>
+<div id="mocha"></div>
+<script>mocha.setup('bdd');</script>
+
+<script src="../build/build.js"></script>
+<script src="es6.js"></script>
+
+<script>
+function assert(value, msg) {
+  if (value !== true) throw Error('Assert ' + (msg || ''));
+}
+
+document.title = 'es6 is-pure-function tests';
+
+mocha.run();
+</script>

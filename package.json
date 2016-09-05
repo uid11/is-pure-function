@@ -1,0 +1,32 @@
+{
+  "name": "is-pure-function",
+  "version": "0.1.6",
+  "description": "Return true, if function is pure.",
+  "main": "src/is-pure-function.js",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "test": "./node_modules/opener/opener.js ./test/es3.html && ./node_modules/opener/opener.js ./test/es6.html"
+  },
+  "keywords": [
+    "check",
+    "pure",
+    "function",
+    "reactive",
+    "model"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": ">=1.0.0",
+    "opener": "*"
+  },
+  "author": "uid-11222",
+  "bugs": {
+    "url": "https://github.com/uid-11222/is-pure-function/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/uid-11222/is-pure-function",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uid-11222/is-pure-function"
+  }
+}

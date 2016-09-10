@@ -8,7 +8,6 @@ module.exports = {
     filename: 'build.js',
     library: 'isPureFunction'
   },
-  watch: true,
   watchOptions: {
     aggregateTimeout: 200
   },

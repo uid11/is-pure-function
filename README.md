@@ -1,8 +1,10 @@
 # is-pure-function #
 
-  [![NPM version][npm-image]][npm-url] ![dependencies][dependencies-image] [![License MIT][license-image]](LICENSE)
+[![NPM version][npm-image]][npm-url] ![dependencies][dependencies-image] [![License MIT][license-image]](LICENSE)
 
-  Simple and fast ES3-check that function is pure.
+[![NPM](https://nodei.co/npm/is-pure-function.png)](https://nodei.co/npm/is-pure-function/)
+
+Simple and fast ES3-check that function is pure.
 ```js
 /** 
  * @param {function} fn
@@ -10,7 +12,7 @@
  * @param {Array} args
  * @return {boolean}
  */
-function isPureFunction(fn, thisArg, args) {};
+function isPureFunction(fn, thisArg, args) {/**...*/};
 ```
 *fn* is pure, if not throw when called with *thisArg* as this and *args* as arguments in global scope.
 
@@ -126,7 +128,7 @@ $ npm test
 ```
 
 ## License ##
-  [MIT](LICENSE)
+[MIT](LICENSE)
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg "license-image"
 [dependencies-image]: https://img.shields.io/gemnasium/mathiasbynens/he.svg?maxAge=2592000 "dependencies-image"

@@ -8,6 +8,12 @@
 <script src="es6.js"></script>
 
 <script>
+/**
+ * Throw error, if value is not true.
+ * @param  {*} value
+ * @param  {string} msg
+ * @throws {Error}
+ */
 function assert(value, msg) {
   if (value !== true) throw Error('Assert ' + (msg || ''));
 }

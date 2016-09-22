@@ -1,6 +1,6 @@
 {
   "name": "is-pure-function",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Return true, if function is pure.",
   "main": "src/is-pure-function.js",
   "scripts": {
@@ -18,9 +18,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "webpack": ">=1.0.0",
+    "webpack": "^1.13.2",
     "mocha": "^3.0.2",
-    "opener": "*"
+    "opener": "^1.4.2"
   },
   "author": "uid-11222",
   "bugs": {
